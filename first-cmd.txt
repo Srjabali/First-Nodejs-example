@@ -1,0 +1,14 @@
+#--- instalar archivo package json para informacion de proyecto ---#
+npm init -y
+
+#--- instalar express, morgan y ejs
+npm i express morgan ejs
+
+#--- instalar nodemon
+npm i nodemon -D
+
+#--- en package.json ir a "script" y crear script 
+"dev": "nodemon src/index.js"
+
+#--- en package.json y agregar type
+"type": "module"
